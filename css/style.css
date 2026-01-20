@@ -238,9 +238,9 @@ section{
 }
 .services-container{
     display: grid;
-    grid-template-columns: repeat(auto-fut, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     align-items: center;
-    gap: 2rem;
+    gap: 2.5rem;
 }
 .service-box{
     display: flex;
