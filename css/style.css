@@ -293,6 +293,7 @@ section{
     place-items: center;
     gap: 3rem;
     row-gap: 5rem;
+    align-items: stretch;
 }
 .projects-card{
     display: flex;
@@ -319,10 +320,66 @@ section{
     border-radius: 2em;
     object-fit: cover;
 }
-
 .projects-card h3{
     font-size: 3rem;
 }
 .projects-card p{
     font-size: 1.6rem;
+}
+
+.contacts{
+    background-color: var(--bg-color);
+}
+.contacts h2{
+    margin-bottom: 3rem;
+    color: var(--text-color);
+}
+.contacts form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 5rem 0;
+    text-align: center;
+}
+.contacts form .contact-box input,
+.contacts form textarea{
+    width: 100%;
+    padding: 2.5rem;
+    font-size: 2rem;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    border-radius: 2rem;
+    border: 2px solid var(--main-color);
+    margin: 1.5rem 0;
+    resize: none;
+}
+
+.footer{
+    background-color: var(--second-bg-color);
+    padding: 50px 0;
+}
+.footer .social-icons{
+    text-align: center;
+}
+.footer ul{
+    text-align: center;
+    font-size: 2rem;
+}
+.footer ul li{
+    display: inline-block;
+    margin-left: 16px;
+}
+.footer ul li a{
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+.footer ul li a:hover{
+    border-bottom:  3px solid var(--main-color);
+}
+.footer .copyright{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 6px;
 }
