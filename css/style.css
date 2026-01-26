@@ -143,7 +143,7 @@ section{
     margin: 3rem 0.5rem;
     transition: 0.3s ease-in-out;
 }
-.soical-icons a:hover{
+.social-icons a:hover{
     color: var(--text-color);
     background-color: var(--main-color);
     transform: scale(1.2)translateY(-5px);
@@ -247,7 +247,7 @@ section{
     justify-content: center;
     align-items: center;
     background-color: var(--main-color);
-    height: 600px;
+    height: 300px;
     border-radius: 3rem;
     cursor: pointer;
     border: 5px solid transparent;
@@ -386,8 +386,11 @@ section{
 
 @media (max-width:1285px){
     #menu-icon{
+        position: absolute;
+        right: 2rem;
         display: block;
     }
+    
     .navbar{
         position: absolute;
         top: 100%;
@@ -398,6 +401,7 @@ section{
         border-bottom-left-radius: 2rem;
         border-left: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
+        display: none;
     }
     .navbar a{
         display: block;
@@ -435,6 +439,6 @@ section{
         width: 52vw;
     }
     .contacts form{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 }

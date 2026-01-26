@@ -13,7 +13,7 @@
   <body>
     <header class="header">
       <a href="#home" class="logo"> Jacob <span>Hannestad</span> </a>
-
+      
       <i class="bx bx-menu" id="menu-icon"></i>
 
       <nav class="navbar">
@@ -21,7 +21,7 @@
         <a href="#about">About Me</a>
         <a href="#services">Service</a>
         <a href="#projects">My Projects</a>
-        <a href="#contacts">Contact Me!</a>
+        <a href="#contacts">Contact</a>
       </nav>
 
       <button class="gradiant-btn">Contact Me</button>
@@ -38,21 +38,21 @@
           cupiditate quo.
         </p>
         <div class="social-icons">
-          <a href="#">
+          <a href="https://github.com/jahaa032">
             <i class="bx bxl-github"></i>
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/jacob-fosnes-hannestad-655b68386/">
             <i class="bx bxl-linkedin-square"></i>
           </a>
           <a href="#">
-            <i class="bx bxl-instagram-alt"></i>
+            <i class="bx bxl-discord"></i>
           </a>
           <a href="#">
             <i class="bx bxl-twitter"></i>
           </a>
         </div>
         <div class="btn-group">
-          <a href="#" class="btn">Hire</a>
+          <a href="#" class="btn"></a>
           <a href="#contacts" class="btn">Contact</a>
         </div>
       </div>
@@ -78,7 +78,7 @@
       </div>
     </section>
 
-    <section class="services" id="services">
+    <!-- <section class="services" id="services">
       <h2 class="heading">Services</h2>
 
       <div class="services-container">
@@ -121,7 +121,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="projects" id="projects">
       <h2 class="heading">Project</h2>
@@ -136,7 +136,9 @@
             A puzzle game where you try to get the light to the finish using
             differnent mirrors.
           </p>
-          <div class="btn">Review Rays</div>
+          <div>
+            <a href="https://github.com/Alfreditann/rays2.1" class="btn">Review Rays</a>
+          </div>
         </div>
 
         <div class="projects-card">
@@ -148,7 +150,9 @@
             This is a game where you use your space ship to shoot the aliens
             that are coming towards you, and earn score the more you kill.
           </p>
-          <div class="btn">Review Space Invaders</div>
+          <div> 
+            <a href="https://editor.p5js.org/jahaa032/sketches/iepeCvD0X" class="btn">Review Space Invaders</a>
+          </div>
         </div>
 
         <div class="projects-card">
@@ -163,7 +167,9 @@
             your fire, if you run out of fire then you can get more pizzas, so
             you need to buy fire.
           </p>
-          <div class="btn">Review Pizza Clicker</div>
+          <div>
+            <a href="https://github.com/jahaa032/Pizza-Clicker" class="btn">Review Pizza Clicker</a>
+          </div>
         </div>
 
         <div class="projects-card">
@@ -175,7 +181,9 @@
             This is a database run by an Docker App. This will let you add,
             delete, update, and more to the browser using your terminal.
           </p>
-          <div class="btn">Review Docker App</div>
+          <div>
+            <a href="https://github.com/jahaa032/my-second-docker-app" class="btn">Review Docker App</a>
+          </div>
         </div>
 
         <div class="projects-card">
@@ -186,7 +194,9 @@
             A 2D game where you can shoot a fireball at enemys, collect coint,
             pick up power ups and discover secerets
           </p>
-          <div class="btn">Review My 2D Game</div>
+          <div>
+            <a href="https://github.com/jahaa032/Mitt-2Ds_Spill" class="btn">Review My 2D Game</a>
+          </div>
         </div>
 
         <div class="projects-card">
@@ -198,7 +208,9 @@
             This code simulates a vote for norways candidates and shows what the
             end votes was and what the prosentages was.
           </p>
-          <div class="btn">Review Voteing System</div>
+          <div>
+            <a href="https://github.com/jahaa032/Avstemningssystem_oppgave" class="btn">Review Voteing System</a>
+          </div>
         </div>
       </div>
     </section>
@@ -210,13 +222,13 @@
         <div class="contact-info">
 
           <div class="contact-box">
-            <input type="text" placeholder="Full-Name" size="40" />
-            <input type="text" placeholder="email" size="40" />
+            <input type="text" placeholder="Full-Name" required/>
+            <input type="text" placeholder="email" required/>
           </div>
 
           <div class="contact-box">
-            <input type="number" placeholder="Phone-Number" size="11" />
-            <input type="Text" placeholder="Subject" size="20" />
+            <input type="tel" placeholder="Phone-Number" required/>
+            <input type="Text" placeholder="Subject" required/>
           </div>
 
         </div>
@@ -225,7 +237,7 @@
 
           <div class="contact-box">
             <textarea class="" id="" 
-            placeholder="Message" cols="30" rows="10"></textarea>
+            placeholder="Message" cols="30" rows="10" required></textarea>
             <input type="submit" value="Send Message" class="btn" />
           </div>
 
